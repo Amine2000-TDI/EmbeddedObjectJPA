@@ -20,4 +20,6 @@
 <li>logger.error("Ceci est un message d'erreur");</li>
 </ul>
 <p>Cela permet de générer différents niveaux de logs (debug, info, erreur) dans le fichier app.log.</p>
+<h2>Troiséme commit 3 : Utilisation des annotations @Embedded, @Embeddable, @AttributeOverrides et @AttributeOverride"</h2>
+<p>Ce projet utilise @Embedded et @Embeddable pour inclure une classe Adresse comme attribut dans la classe Personne. Avec @AttributeOverrides et @AttributeOverride, nous personnalisons les noms des colonnes de Adresse dans la table de Personne sans modifier la classe Adresse.</p>
 
