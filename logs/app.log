@@ -1,0 +1,4 @@
+2025-03-05 16:46:29,829 ERROR c.e.Main [main] Ceci est un message d'erreur
+2025-03-05 16:49:04,573 DEBUG c.e.Main [main] Ceci est un message de debug
+2025-03-05 16:49:04,577 INFO c.e.Main [main] Ceci est un message d'information
+2025-03-05 16:49:04,577 ERROR c.e.Main [main] Ceci est un message d'erreur
