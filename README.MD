@@ -12,7 +12,7 @@
 <li><strong>Création de la base :  </strong>hibernate.hbm2ddl.auto = create-drop</li>
 </ul>
 <h2>Deuxième commit 2 : </h2>
-<p>Ce projet utilise Log4j pour la gestion des logs.</p>
+<h3>Ce projet utilise Log4j pour la gestion des logs.</h3>
 <p>Un test basique de Log4j a été effectué dans le fichier Main.java pour vérifier le bon fonctionnement des logs.</p>
 <ul>
 <li>logger.debug("Ceci est un message de debug");</li>
