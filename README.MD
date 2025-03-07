@@ -20,6 +20,9 @@
 <li>logger.error("Ceci est un message d'erreur");</li>
 </ul>
 <p>Cela permet de générer différents niveaux de logs (debug, info, erreur) dans le fichier app.log.</p>
-<h2>Troiséme commit 3 : Utilisation des annotations @Embedded, @Embeddable, @AttributeOverrides et @AttributeOverride"</h2>
+<h2>Troiséme commit 3 :</h2>
+<h3>Utilisation des annotations @Embedded, @Embeddable, @AttributeOverrides et @AttributeOverride"</h3>
 <p>Ce projet utilise @Embedded et @Embeddable pour inclure une classe Adresse comme attribut dans la classe Personne. Avec @AttributeOverrides et @AttributeOverride, nous personnalisons les noms des colonnes de Adresse dans la table de Personne sans modifier la classe Adresse.</p>
-
+<h2>Quatriéme commit 4 :</h2>
+<h3>Couche DAO</h3>
+<p>Ce commit ajoute la couche DAO (Data Access Object) pour gérer les opérations CRUD de l'entité Personne. La classe PersonneDao implémente l'interface IProduitDao et fournit des méthodes pour sauvegarder, supprimer, récupérer par identifiant, par nom, et obtenir toutes les personnes. Les transactions sont gérées avec JPA et les logs sont enregistrés avec Log4j.</p>
